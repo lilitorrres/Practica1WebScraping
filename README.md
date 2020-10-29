@@ -7,7 +7,7 @@
 
 
 ### Miembros del Equipo
-##### La práctica ha sido desarrollada por **Leidy Liliana Torres Bolivar** y **Jose Carlos Sola Verdú
+##### La práctica ha sido desarrollada por **Leidy Liliana Torres Bolivar** y **Jose Carlos Sola Verdú**
 
 
 ## Ficheros del código fuente (EDITAR)
