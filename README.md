@@ -10,7 +10,7 @@ El **objetivo** principal es crear un **_dataset_** a partir de los datos que in
 La práctica ha sido desarrollada por **Leidy Liliana Torres Bolivar** y **Jose Carlos Sola Verdú**
 
 
-## Ficheros del código fuente (EDITAR)
+## Ficheros del código fuente
 
 Por ahora existe fichero PRA1_Web_Scraping.py
 y otro del resultado generado Resultado_baloto.csv
