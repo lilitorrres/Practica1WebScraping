@@ -12,7 +12,8 @@ La práctica ha sido desarrollada por **Leidy Liliana Torres Bolivar** y **Jose 
 
 ## Ficheros del código fuente (EDITAR)
 
-
+Por ahora existe fichero PRA1_Web_Scraping.py
+y otro del resultado generado Resultado_baloto.csv
 
 
 ## Recursos (EDITAR)
