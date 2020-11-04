@@ -17,7 +17,7 @@ import urllib.request
 driver = webdriver.Chrome('./chromedriver.exe')
 
 #Definición variable donde se almace la URL para realizar el web scraping
-url='https://www.ktronix.com/?fuente=google&medio=cpc&campaign=KT_COL_SEM_PEF_CPC_B_AON_TLP_TLP_Brand-General-AON_PAC&keyword=ktronix&gclid=Cj0KCQjwlvT8BRDeARIsAACRFiW9ZLLQehFIl7vztzG12gbU_bZem_5FsBXVRdUdBdyIb48eYOz2sboaAuEqEALw_wcB'
+url='https://www.ktronix.com/'
 
 #Abrimos la pagina
 driver.get(url)
