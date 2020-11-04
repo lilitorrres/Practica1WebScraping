@@ -14,30 +14,45 @@ import pandas as pd
 import urllib.request
 
 #decidimos usar la driver de chrome
-driver = webdriver.Chrome('./chromedriver.exe')
+web1 = webdriver.Chrome('./chromedriver.exe')
+web2 = webdriver.Chrome('./chromedriver.exe')
 
 #Definición variable donde se almace la URL para realizar el web scraping
-url='https://www.ktronix.com/'
+url1 = 'https://www.ktronix.com/'
+url2 = 'https://www.amazon.es/'
 
 #Abrimos la pagina
-driver.get(url)
+web1.get(url1)
+web2.get(url2)
 
 #Esperamos un tiempo aleario entre 5 y 10 segundos para no usar siempre el mismo tiempo de espera de consulta
 sleep(random.uniform(5.0,10.0))
 
 #En la barra de busqueda de la pagina enviamos "iphone 11"
-driver.find_element_by_id('js-site-search-input').send_keys("iphone 11")
-driver.find_element_by_id("js-site-search-input").submit()
+web1.find_element_by_id('js-site-search-input').send_keys("iphone 11")
+web1.find_element_by_id("js-site-search-input").submit()
+
+web2.find_element_by_id('twotabsearchtextbox').send_keys('iphone 11')
+web2.find_element_by_id('twotabsearchtextbox').submit()
 
 #Almacenamos los elementos con las etiquetas correspondientes para nombre, precio y caracteristicas
-celular = driver.find_elements_by_class_name("product__information--name")
-precio = driver.find_elements_by_class_name("product__price--discounts__price")
-caracteristica = driver.find_elements_by_class_name("product__information--specifications__block")
+celular = web1.find_elements_by_class_name("product__information--name")
+celular2 = web2.find_elements_by_class_name("a-size-mini")
+
+precio = web1.find_elements_by_class_name("product__price--discounts__price")
+precio2 = web2.find_elements_by_class_name("a-price-whole")
+
+caracteristica = web1.find_elements_by_class_name("product__information--specifications__block")
+caracteristica2 = web2.find_elements_by_class_name("a-size-base-plus")
 
 #Definimos las listas que almaceran los elementos encontrados con las class_nam definidas anteriormente
 productolist=list()
 preciolist=list()
 caracteristicalist=list()
+
+productolist2=list()
+preciolist2=list()
+caracteristicalist2=list()
 
 #Ciclos para obtener los nombres de los productos y almacenarlos en la lista correspindiente
 for celulares in celular:
@@ -67,11 +82,11 @@ df.to_csv('Resultado_iphone11.csv', index=False, sep=',')
 
 
 #Campturamos el  logo el almacen con nombre logo.png
-img = driver.find_element_by_xpath('//img[@loading="lazy"]')
+img = web1.find_element_by_xpath('//img[@loading="lazy"]')
 try:
     img.screenshot('logo.png')
 except Exception as ex:
-    driver.get_screenshot_as_file('error.png')
+    web1.get_screenshot_as_file('error.png')
 
 #Cerramos la sesión abierta al incio
-driver.close()
+web1.close()
