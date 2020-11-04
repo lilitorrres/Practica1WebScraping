@@ -37,10 +37,10 @@ web2.find_element_by_id('twotabsearchtextbox').submit()
 
 #Almacenamos los elementos con las etiquetas correspondientes para nombre, precio y caracteristicas
 celular = web1.find_elements_by_class_name("product__information--name")
-celular2 = web2.find_elements_by_class_name("a-size-mini")
+celular2 = web2.find_elements_by_class_name("a-size-mini a-spacing-none a-color-base s-line-clamp-4")
 
 precio = web1.find_elements_by_class_name("product__price--discounts__price")
-precio2 = web2.find_elements_by_class_name("a-price-whole")
+precio2 = web2.find_elements_by_class_name("a-price")
 
 caracteristica = web1.find_elements_by_class_name("product__information--specifications__block")
 caracteristica2 = web2.find_elements_by_class_name("a-size-base-plus")
@@ -52,14 +52,13 @@ caracteristicalist=list()
 
 productolist2=list()
 preciolist2=list()
-caracteristicalist2=list()
 
 #Ciclos para obtener los nombres de los productos y almacenarlos en la lista correspindiente
 for celulares in celular:
     nombre= celulares.find_element_by_xpath('.//a[@class="js-product-click-datalayer"]').text
     productolist.append(nombre)
     
-
+    
 for precios in precio:
     precio= precios.find_element_by_xpath('.//span[@class="price"]').text
     preciolist.append(precio)
@@ -68,14 +67,29 @@ for precios in precio:
 for caracteristicas in caracteristica:
     caracteristica= caracteristicas.find_element_by_xpath('.//div[@class="item--key"]').text +" - "+ caracteristicas.find_element_by_xpath('.//div[@class="item--value"]').text
     caracteristicalist.append(caracteristica)
+    
+for celulares2 in celular2:
+    nombre2 = celulares2.find_element_by_xpath('.//span[@class="a-size-medium a-color-base a-text-normal"]').text
+    productolist2.append(nombre2)
+    
+for precios2 in precio2:
+    precio2 = precios2.find_element_by_xpath('.//span[@class="a-offscreen"]').text
+    preciolist2.append(precio2)
         
 #Definimos los dataFrame con las listas obtenidas anteriormente   
-
 df = pd.DataFrame(list(zip(productolist, preciolist, caracteristicalist)), 
                columns =['Name', 'val', 'caracteristica'])
 
+df2 = pd.DataFrame(list(zip(productolist2, preciolist2)), 
+               columns =['Name', 'precio'])
+
 #Imprimimos el df
 print(df)
+print(df2)
+
+#Almacenamos el  resultado  en un archivo CSV con ,  como separador
+df.to_csv('Resultado_iphone11.csv', index=False, sep=',')
+df2.to_csv('Resultado_iphone11Amazon.csv', index=False, sep=',')
 
 #Almacenamos el  resultado  en un archivo CSV con ,  como separador
 df.to_csv('Resultado_iphone11.csv', index=False, sep=',')
@@ -90,3 +104,4 @@ except Exception as ex:
 
 #Cerramos la sesión abierta al incio
 web1.close()
+web2.close()
