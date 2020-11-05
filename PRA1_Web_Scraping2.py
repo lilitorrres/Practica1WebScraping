@@ -47,7 +47,7 @@ web3.find_element_by_id('search-input').clear()
 #Almacenamos los elementos con las etiquetas correspondientes para nombre, precio y caracteristicas
 celular = web1.find_elements_by_class_name("product__information--name")
 celular2 = web2.find_elements_by_class_name("Article-infoContent")
-celular3 = web3.find_elements_by_class_name("w-product__description")
+celular3 = web3.find_elements_by_class_name("w-product__content")
 
 precio = web1.find_elements_by_class_name("product__price--discounts__price")
 precio2 = web2.find_elements_by_class_name("Article-price")
