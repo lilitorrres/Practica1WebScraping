@@ -84,7 +84,8 @@ for precios in precio:
 for caracteristicas in caracteristica:
     caracteristica= caracteristicas.find_element_by_xpath('.//div[@class="item--key"]').text +" - "+ caracteristicas.find_element_by_xpath('.//div[@class="item--value"]').text
     caracteristicalist.append(caracteristica)
-        
+
+#FNAC
 for celulares2 in celular2:
     nombre2 = celulares2.find_element_by_xpath('.//p[@class="Article-desc"]').text
     productolist2.append(nombre2)
@@ -96,7 +97,8 @@ for precios2 in precio2:
 for caracteristicas2 in caracteristica2:
     caracteristica2 = caracteristicas2.find_element_by_xpath('.//span[@class="label"]').text +" - "+ caracteristicas2.find_element_by_xpath('.//span[@class="data"]').text
     caracteristicalist2.append(caracteristica2)
-    
+
+#Worten
 for celulares3 in celular3:
     nombre3 = celulares3.find_element_by_xpath('.//h3[@class="w-product__title"]').text
     productolist3.append(nombre3)
@@ -111,10 +113,10 @@ df = pd.DataFrame(list(zip(productolist, preciolist, caracteristicalist)),
                columns =['Name', 'val', 'caracteristica'])
 
 df2 = pd.DataFrame(list(zip(productolist2, preciolist2, caracteristicalist2)), 
-               columns =['Name', 'precio', 'caracteristica'])
+               columns =['Nombre', 'precio', 'caracteristica'])
 
 df3 = pd.DataFrame(list(zip(productolist3, preciolist3)), 
-               columns =['Name', 'precio'])
+               columns =['Nombre', 'precio'])
 
 #Imprimimos el df
 print(df)
