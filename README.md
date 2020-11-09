@@ -14,7 +14,5 @@ La práctica ha sido desarrollada por **Leidy Liliana Torres Bolivar** y **Jose 
 
 ## Ficheros del código fuente
 
-La recopilación de datos se encuentra en el archivo **PRA1_Web_Scraping3.py**, programado en _Python_ y el **_Dataset_** generado es el archivo **Resultado_iphone11.csv**
-
-También se pueden encontrar los CSVs de cada una de las tiendas consultadas.
+La recopilación de datos se encuentra en la carpeta **src**, en el archivo **PRA1_Web_Scraping3.py**, programado en _Python_ y el **_Dataset_** generado se encuentra en la carpeta **csv**, concretamente el archivo **Resultado_iphone11.csv**. Además, en esta carpeta también se encuentran los CSVs generados de cada tienda.
 
