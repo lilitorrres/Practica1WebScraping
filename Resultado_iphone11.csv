@@ -1,26 +1,69 @@
-Name,val,caracteristica
-iPhone 11 Pro 512 GB Gris espacial,$6.649.000,Memoria Interna - 512 GB
-iPhone 11 Pro 256 GB verde noche,$5.669.000,Memoria Interna - 256 GB
-Case Silicone iPhone 11 Pro Max Arena,$183.000,Carcasa o Estuche Para - Celular
-iPhone XS Max 256GB Gris,$5.489.000,Memoria Interna - 256 GB
-iPhone 7 - 32GB Negro,$1.399.900,Memoria Interna - 32 GB
-iPhone 7 - 32GB Plateado,$1.119.000,Memoria Interna - 32 GB
-iPhone XS Max 64GB Gris,$3.149.000,Memoria Interna - 64 GB
-iPhone 7 - 32GB Rosado,$1.119.000,Memoria Interna - 32 GB
-"iPhone XR 64GB ""Rojo",$2.899.000,Memoria Interna - 64 GB
-"iPhone SE 128GB ""Rojo",$2.399.000,Memoria Interna - 128 GB
-"iPhone XR 64GB ""Negro",$2.899.000,Memoria Interna - 64 GB
-"iPhone SE 128GB  ""Blanco",$2.399.000,Memoria Interna - 128 GB
-Celular SAMSUNG Galaxy A11-64 GB Negro,$519.900,Memoria Interna - 64 GB
-Celular SAMSUNG Galaxy A11-64 GB Blanco,$519.900,Memoria Interna - 64 GB
-Celular SAMSUNG Galaxy A11-64 GB Azul,$519.900,Memoria Interna - 64 GB
-Celular SAMSUNG Galaxy S20 FE 256GB Azul + Celular Galaxy A11 Negro,$2.999.090,Memoria Interna - 256 GB
-Celular SAMSUNG Galaxy S20 FE 256GB Naranja + Celular Galaxy A11 Negro,$2.999.090,Memoria Interna - 256 GB
-Celular SAMSUNG Galaxy S20 FE 256GB Verde + Celular Galaxy A11 Negro,$2.999.090,Memoria Interna - 256 GB
-Celular SAMSUNG Galaxy S20 FE 256GB Morado + Celular Galaxy A11 Negro,$2.999.090,Memoria Interna - 256 GB
-Celular NOKIA 1.3 - 16GB Negro,$319.900,Memoria Interna - 16 GB
-Celular NOKIA 1.3 - 16GB Dorado,$319.900,Memoria Interna - 16 GB
-Celular NOKIA 1.3 - 16GB Verde,$319.900,Memoria Interna - 16 GB
-Celular SAMSUNG Galaxy A01 Core 16GB Rojo,$299.900,Memoria Interna - 16 GB
-Celular SAMSUNG Galaxy A01 Core 16GB Azul,$299.900,Memoria Interna - 16 GB
-Celular SAMSUNG Galaxy A01 Core 16GB Negro,$299.900,Memoria Interna - 16 GB
+Name,val,caracteristica,Tienda;;;;
+iPhone 11 Pro 512 GB Gris espacial,$6.649.000,Memoria Interna - 512 GB,Ktronix,;;;;
+iPhone 11 Pro 256 GB verde noche,$5.669.000,Memoria Interna - 256 GB,Ktronix,;;;;
+"iPhone 11 128 GB ""Blanco,$3.335.000,Memoria Interna - 128 GB,Ktronix,";;;;
+"iPhone 11 128 GB ""Rojo,$3.335.000,Memoria Interna - 128 GB,Ktronix,";;;;
+"iPhone 11 128 GB ""Negro,$3.335.000,Memoria Interna - 128 GB,Ktronix,";;;;
+"Cel 4G iPhone 7 32GB ""Dr,$1.419.000,Carcasa o Estuche Para - Celular,Ktronix,";;;;
+Case Silicone iPhone 11 Pro Max Arena,$183.000,Memoria Interna - 256 GB,Ktronix,;;;;
+iPhone XS Max 256GB Gris,$5.489.000,Memoria Interna - 32 GB,Ktronix,;;;;
+iPhone 7 - 32GB Negro,$1.419.000,Memoria Interna - 32 GB,Ktronix,;;;;
+iPhone 7 - 32GB Plateado,$1.149.000,Memoria Interna - 32 GB,Ktronix,;;;;
+iPhone 7 - 32GB Rosado,$1.149.000,Memoria Interna - 64 GB,Ktronix,;;;;
+iPhone XS Max 64GB Gris,$2.999.000,Memoria Interna - 128 GB,Ktronix,;;;;
+iPhone 12 128 GB Negro,$4.499.000,Memoria Interna - 128 GB,Ktronix,;;;;
+iPhone 12 128 GB Blanco,$4.499.000,Memoria Interna - 128 GB,Ktronix,;;;;
+iPhone 12 Rojo 128 GB,$4.499.000,Memoria Interna - 128 GB,Ktronix,;;;;
+iPhone 12 128 GB Azul,$4.499.000,Memoria Interna - 256 GB,Ktronix,;;;;
+iPhone 12 256 GB Azul,$5.029.000,Memoria Interna - 64 GB,Ktronix,;;;;
+iPhone 12 64 GB Negro,$4.229.000,Memoria Interna - 64 GB,Ktronix,;;;;
+iPhone 12 Rojo 64 GB,$4.229.000,Memoria Interna - 64 GB,Ktronix,;;;;
+iPhone 12 64 GB Azul,$4.229.000,Memoria Interna - 128 GB,Ktronix,;;;;
+"iPhone SE 128GB ""Rojo,$2.276.000,Memoria Interna - 64 GB,Ktronix,";;;;
+"iPhone XR 64GB ""Rojo,$2.599.000,Memoria Interna - 64 GB,Ktronix,";;;;
+"iPhone XR 64GB ""Blanco,$2.599.000,Memoria Interna - 128 GB,Ktronix,";;;;
+"iPhone SE 128GB  ""Blanco,$2.276.000,Memoria Interna - 64 GB,Ktronix,";;;;
+Apple iPhone 11 6,1'' 128GB Negro,739€,Pantalla - 6,1'' (15,49 cm), LCD IPS Liquid Retina HD (1792 x 828 ppp), Multitáctil;" Pantalla True Tone"",FNAC,";;;
+Apple iPhone 11 6,1'' 128GB Violeta,739€,Pantalla - 6,1'' (15,49 cm), LCD IPS Liquid Retina HD (1792 x 828 ppp), Multitáctil;" Pantalla True Tone"",FNAC,";;;
+Apple iPhone 11 6,1'' 128GB Blanco,739€,Pantalla - 6,1'' (15,49 cm), LCD IPS Liquid Retina HD (1792 x 828 ppp), Multitáctil;" Pantalla True Tone"",FNAC,";;;
+Apple iPhone 11 6,1'' 128GB Verde,739€,Pantalla - 6,1'' (15,49 cm), LCD IPS Liquid Retina HD (1792 x 828 ppp), Multitáctil;" Pantalla True Tone"",FNAC,";;;
+Apple iPhone 11 Pro 5,8'' 256GB Gris espacial,1.229€,Pantalla - 5,8'' (14,7 cm), OLED HDR (2436 x 1125 ppp); Multitáctil;Súper Retina XDR;" Pantalla True Tone"",FNAC,";
+Apple iPhone 11 Pro Max 6,5'' 64GB Verde noche,1.159€,Pantalla - 6,5'' (16,51 cm); OLED HDR (2688 x 1242 ppp);Multitáctil; Súper Retina XDR;" Pantalla True Tone"",FNAC,"
+Apple iPhone 11 Pro Max 6,5'' 256GB Oro,1.329€,Pantalla - 6,5'' (16,51 cm); OLED HDR (2688 x 1242 ppp);Multitáctil; Súper Retina XDR;" Pantalla True Tone"",FNAC,"
+Apple iPhone 11 6,1'' 64GB Negro,599€,Pantalla - 6,1'' (15,49 cm), LCD IPS Liquid Retina HD (1792 x 828 ppp), Multitáctil;" Pantalla True Tone"",FNAC,";;;
+Apple iPhone 11 6,1'' 64GB Blanco,599€,Pantalla - 6,1'' (15,49 cm), LCD IPS Liquid Retina HD (1792 x 828 ppp), Multitáctil;" Pantalla True Tone"",FNAC,";;;
+Apple iPhone 11 6,1'' 128GB Amarillo,739€,Pantalla - 6,1'' (15,49 cm), LCD IPS Liquid Retina HD (1792 x 828 ppp), Multitáctil;" Pantalla True Tone"",FNAC,";;;
+Apple iPhone 11 6,1'' 64GB Verde,599€,Pantalla - 6,1'' (15,49 cm), LCD IPS Liquid Retina HD (1792 x 828 ppp), Multitáctil;" Pantalla True Tone"",FNAC,";;;
+Apple iPhone 11 Pro Max 6,5'' 256GB Gris espacial,1.329€,Pantalla - 6,5'' (16,51 cm); OLED HDR (2688 x 1242 ppp);Multitáctil; Súper Retina XDR;" Pantalla True Tone"",FNAC,"
+Apple iPhone 11 6,1'' 64GB (PRODUCT)RED,599€,Pantalla - 6,1'' (15,49 cm), LCD IPS Liquid Retina HD (1792 x 828 ppp), Multitáctil;" Pantalla True Tone"",FNAC,";;;
+Apple iPhone 11 Pro Max 6,5'' 512GB Gris espacial,1.367€,Pantalla - 6,5'' (16,51 cm); OLED HDR (2688 x 1242 ppp);Multitáctil; Súper Retina XDR;" Pantalla True Tone"",FNAC,"
+Apple iPhone 11 6,1'' 64GB Violeta,625€,Pantalla - 6,1'' (15,49 cm), LCD IPS Liquid Retina HD (1792 x 828 ppp), Multitáctil;" Pantalla True Tone"",FNAC,";;;
+Apple iPhone 11 6,1'' 256GB Negro,859€,Pantalla - 6,1'' (15,49 cm), LCD IPS Liquid Retina HD (1792 x 828 ppp), Multitáctil;" Pantalla True Tone"",FNAC,";;;
+Funda Apple Clear Case Transparente para iPhone 11,29€,Compatibilidad - iPhone 11,FNAC,;;;;
+Apple iPhone 11 6,1'' 128GB (PRODUCT)RED,739€,Pantalla - 6,1'' (15,49 cm), LCD IPS Liquid Retina HD (1792 x 828 ppp), Multitáctil;" Pantalla True Tone"",FNAC,";;;
+Funda de piel Apple Negro para iPhone 11 Pro Max,30,41€,Compatibilidad - iPhone 11 Pro Max,FNAC,;;;;
+Funda de piel Apple Marrón caramelo para iPhone 11 Pro,44,90€,Compatibilidad - iPhone 11 Pro,FNAC,;;;;
+iPhone 12 Pro APPLE (6.1'' - 256 GB - Grafito),1279.00€,Worten,;;;;
+iPhone 12 Mini APPLE (5.4'' - 64 GB - Azul),809.99€,Worten,;;;;
+iPhone 12 Pro Max APPLE (6.7'' - 128 GB - Azul Pacífico),1259.00€,Worten,;;;;
+iPhone 11 APPLE (6.1'' - 128 GB - Negro),738.99€,Worten,;;;;
+iPhone 12 Mini APPLE (5.4'' - 128 GB - Verde),859.99€,Worten,;;;;
+iPhone 11 APPLE (6.1'' - 64 GB - Blanco),689.99€,Worten,;;;;
+iPhone 12 APPLE (6.1'' - 256 GB - Rojo),1079.00€,Worten,;;;;
+iPhone 11 APPLE (6.1'' - 128 GB - Blanco),739.99€,Worten,;;;;
+iPhone 11 APPLE (6.1'' - 128 GB - Verde),739.99€,Worten,;;;;
+iPhone 12 Pro Max APPLE (6.7'' - 512 GB - Oro),1609.00€,Worten,;;;;
+iPhone 11 Pro APPLE (5.8'' - 256 GB - Plata),1220.00€,Worten,;;;;
+iPhone 11 APPLE (6.1'' - 64 GB - Negro),659.99€,Worten,;;;;
+iPhone 11 APPLE (6.1'' - 64 GB - Violeta),672.99€,Worten,;;;;
+iPhone 11 Pro Max APPLE (6.5'' - 64 GB - Plata),1150.00€,Worten,;;;;
+iPhone 11 Pro APPLE (5.8'' - 256 GB - Gris espacial),1220.00€,Worten,;;;;
+iPhone 11 APPLE (6.1'' - 64 GB - Rojo),659.99€,Worten,;;;;
+iPhone 11 APPLE (6.1'' - 64 GB - Verde),689.99€,Worten,;;;;
+iPhone 11 Pro APPLE (5.8'' - 256 GB - Verde media noche),1220.00€,Worten,;;;;
+iPhone 11 Pro Max APPLE (6.5'' - 256 GB - Dorado),1320.00€,Worten,;;;;
+iPhone 11 APPLE (6.1'' - 256 GB - Verde),844.99€,Worten,;;;;
+iPhone 11 Pro Max APPLE (6.5'' - 512 GB - Plata),1550.00€,Worten,;;;;
+iPhone 11 Pro APPLE (5.8'' - 64 GB - Dorado),1050.00€,Worten,;;;;
+iPhone 11 Pro Max APPLE (6.5'' - 64 GB - Verde media noche),1111.00€,Worten,;;;;
+iPhone 11 Pro APPLE (5.8'' - 64 GB - Gris espacial),1004.00€,Worten,;;;;
