@@ -108,7 +108,7 @@ for precios3 in precio3:
 
 #Definimos los dataFrame con las listas obtenidas anteriormente   
 
-df = pd.DataFrame(list(zip(productolist, preciolist, caracteristicalist)), 
+df1 = pd.DataFrame(list(zip(productolist, preciolist, caracteristicalist)), 
                columns =['Name', 'precio', 'caracteristica'])
 
 df2 = pd.DataFrame(list(zip(productolist2, preciolist2, caracteristicalist2)), 
@@ -121,16 +121,16 @@ df3 = pd.DataFrame(list(zip(productolist3, preciolist3)),
 df3['caracteristica']='Null'
 df3['Tienda']='Worten'
 df2['Tienda']='FNAC'
-df['Tienda']='Ktronix'
+df1['Tienda']='Ktronix'
 
-print(df)
+print(df1)
 print(df2)
 print(df3)
 
-df=pd.concat([df],[df2],[df3])
+dfinal=pd.concat([df1,df2,df3])
 
 #Almacenamos el  resultado  en un archivo CSV con ,  como separador
-df.to_csv('Resultado_iphone11.csv', index=False, sep=',')
+dfinal.to_csv('Resultado_iphone11.csv', index=False, sep=',')
 
 
 #Campturamos el  logo el almacen con nombre logo.png
