@@ -109,13 +109,13 @@ for precios3 in precio3:
 #Definimos los dataFrame con las listas obtenidas anteriormente   
 
 df1 = pd.DataFrame(list(zip(productolist, preciolist, caracteristicalist)), 
-               columns =['Name', 'precio', 'caracteristica'])
+               columns =['Nombre', 'Precio', 'Características'])
 
 df2 = pd.DataFrame(list(zip(productolist2, preciolist2, caracteristicalist2)), 
-               columns =['Nombre', 'precio', 'caracteristica'])
+               columns =['Nombre', 'Precio', 'Características'])
 
 df3 = pd.DataFrame(list(zip(productolist3, preciolist3)), 
-               columns =['Nombre', 'precio'])
+               columns =['Nombre', 'Precio'])
 
 #Imprimimos el df
 df3['caracteristica']='Null'
